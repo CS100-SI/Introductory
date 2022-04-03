@@ -47,7 +47,15 @@ Main commands:
 * `git reset [filename]` removes a file or entire directory from the staging phase
 * `git commit` commits your staged files
   * This will open a file, where you can provide a message and description
-  * Use `git commit -m [message]` to do a quick commit message without opening a file
+  * Use `git commit -m "[message]"` to do a quick commit message without opening a file
     * Use this if your message is **less than 15 words**, otherwise use the normal commit
 * `git branch` lists all branches available
 * `git branch [name]` creates a new branch
+* `git merge [branch]` merges the specified branch into the one you're currently in
+* `git fetch` fetches any changes to repo, including branches
+* `git push` pushes any commited changes
+  * Multiple commits can be stacked before a push
+* `git reset --hard [commit]` completely clears the staging phase and the commits
+  * Usually, you'll be using `git reset --hard HEAD`
+* `git stash` saves any staged and modified changes.
+  * Usually you'll do this if you made changes, but need to visit another branch
