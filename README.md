@@ -43,7 +43,7 @@ Main commands:
 * `git status` shows what files have been changed and what have been added to the staging phase
   * Use this once before you use `git add` to see what files need to be added
 * `git add [filename]` adds a file or entire directory into the staging phase
-  * Use `git add *` to add **all** unstaged changes
+  * Use `git add *` to add **all** un-staged changes
 * `git reset [filename]` removes a file or entire directory from the staging phase
 * `git commit` commits your staged files
   * This will open a file, where you can provide a message and description
@@ -51,9 +51,10 @@ Main commands:
     * Use this if your message is **less than 15 words**, otherwise use the normal commit
 * `git branch` lists all branches available
 * `git branch [name]` creates a new branch
+  * `git push -u origin [name]` pushes the new branch onto the repo
 * `git merge [branch]` merges the specified branch into the one you're currently in
 * `git fetch` fetches any changes to repo, including branches
-* `git push` pushes any commited changes
+* `git push` pushes any committed changes
   * Multiple commits can be stacked before a push
 * `git reset --hard [commit]` completely clears the staging phase and the commits
   * Usually, you'll be using `git reset --hard HEAD`
