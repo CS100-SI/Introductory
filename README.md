@@ -60,17 +60,3 @@ Main commands:
   * Usually, you'll be using `git reset --hard HEAD`
 * `git stash` saves any staged and modified changes.
   * Usually you'll do this if you made changes, but need to visit another branch
-  
-## Practice
-* Clone the repo
-  * https://github.com/CS100-SI/Introductory
-* Create a new branch and enter it
-  * Name the branch with your first name and last name initial followed by `-main`
-    * i.e. JohnT-main
-* Create a `main.cpp` in your branch and commit it
-  * Have it print your favorite hobby/pastime
-* Push the branch on to the repo
-* Open a pull request in GitHub using the `Pull requests` tab and `New pull request`.
-  * You have successfully done this practice if I **reject** the request without labeling an `Issue` to it.
-
-For all repos in these sessions, you will be essentially repeating the above steps. The branch you create will be your "main". If you need to branch more from there, you can do so, and you have free reign to review or merge pull requests to your **own main branch**.
